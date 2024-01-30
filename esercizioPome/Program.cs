@@ -18,12 +18,12 @@ namespace esercizioPome
             int eta = int.Parse(Console.ReadLine());
             // Parse = metodo che converte una stringa ad un numero 
             // Creazione oggetto con firma
-            Persona Alice = new Persona(nome, cognome, eta);
+            Persona Io = new Persona(nome, cognome, eta);
             // stampa con i metodi
-            Console.WriteLine($"Nome: {Alice.GetNome()}");
-            Console.WriteLine($"Cognome: {Alice.GetCognome()}");
-            Console.WriteLine($"Età: {Alice.GetEta()}");
-            Console.WriteLine(Alice.GetDettagli());
+            Console.WriteLine($"Nome: {Io.GetNome()}");
+            Console.WriteLine($"Cognome: {Io.GetCognome()}");
+            Console.WriteLine($"Età: {Io.GetEta()}");
+            Console.WriteLine(Io.GetDettagli());
 
             Console.ReadKey();
             // prova per vedere se va git
