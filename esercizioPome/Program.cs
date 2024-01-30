@@ -17,9 +17,13 @@ namespace esercizioPome
             Console.WriteLine("Inserisci età: \t");
             int eta = int.Parse(Console.ReadLine());
             // Parse = metodo che converte una stringa ad un numero 
-
+            // Creazione oggetto con firma
             Persona Alice = new Persona(nome, cognome, eta);
-            Console.WriteLine(Alice.getDettagli());
+            // stampa con i metodi
+            Console.WriteLine($"Nome: {Alice.GetNome()}");
+            Console.WriteLine($"Cognome: {Alice.GetCognome()}");
+            Console.WriteLine($"Età: {Alice.GetEta()}");
+            Console.WriteLine(Alice.GetDettagli());
 
             Console.ReadKey();
             // prova per vedere se va git

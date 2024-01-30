@@ -12,13 +12,28 @@ namespace esercizioPome
         public string Nome { get; set; }
         public string Cognome { get; set; }
         public int Eta { get; set; }
+
+        // Costruttore Persona:
         public Persona(string nome, string cognome, int eta)
         {
             Nome = nome;
             Cognome = cognome;
             Eta = eta;
         }
-        // metodo
-        public string getDettagli() { return "Nome: " + Nome + "\t" + "Cognome: " + Cognome + "\t" + "Età: " + Eta; }
+        // Metodi:
+        public string GetNome()
+        {
+            return Nome;
+        }
+        public string GetCognome()
+        {
+            return Cognome;
+        }
+        public int GetEta()
+        {
+            return Eta;
+        }
+
+        public string GetDettagli() { return "Nome: " + Nome + "\t" + "Cognome: " + Cognome + "\t" + "Età: " + Eta; }
     }
 }
