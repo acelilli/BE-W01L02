@@ -16,7 +16,7 @@ namespace esercizioPome
             string cognome = Console.ReadLine();
             Console.WriteLine("Inserisci età: \t");
             int eta = int.Parse(Console.ReadLine());
-            // Parse = metodo che converte una stringa ad un numero 
+            // Parse = metodo che converte una stringa ad un numero (funziona solo se la stringa è un numero)
             // Creazione oggetto con firma
             Persona Io = new Persona(nome, cognome, eta);
             // stampa con i metodi
