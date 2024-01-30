@@ -22,7 +22,7 @@ namespace esercizioPome
             Console.WriteLine(Alice.getDettagli());
 
             Console.ReadKey();
-
+            // prova per vedere se va git
         }
     }
 }
